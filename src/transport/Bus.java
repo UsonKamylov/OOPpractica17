@@ -39,4 +39,12 @@ public class Bus extends Transport {
         System.out.println(getId()+"is stoping");
 
     }
+
+    @Override
+    public String toString() {
+        return "Bus{" +super.toString()+
+                "seller=" + seller +
+                ", busDriver=" + busDriver +
+                '}';
+    }
 }

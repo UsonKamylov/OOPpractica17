@@ -31,4 +31,12 @@ public class Car extends Transport {
         System.out.println(getId()+"is stoping");
 
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +super.toString()+
+                "cabbie=" + cabbie +
+                ", busDriver=" + busDriver +
+                '}';
+    }
 }

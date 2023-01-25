@@ -21,6 +21,7 @@ public class Main {
         Bus bus=new Bus("Автобус",2017,"AO 098 OA","Blue",seller,busDriver);
         Trolleybus trel = new Trolleybus("trell",2018,"UI 8909 IU","Silver",seller);
         Car car=new Car("BMW",2020,"AA 77 OO","Black",cabbie,busDriver);
+        System.out.println("_____________________________________________");
         System.out.println(bus);
         bus.run();
         bus.stops();

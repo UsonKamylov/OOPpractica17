@@ -32,4 +32,11 @@ public class Trolleybus extends Transport {
         System.out.println(getId()+"is stoping");
 
     }
+
+    @Override
+    public String toString() {
+        return "Trolleybus{" +super.toString()+
+                "seller=" + seller +
+                '}';
+    }
 }
